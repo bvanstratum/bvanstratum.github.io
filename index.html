@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brian Van Stratum | Research</title>
+  <meta name="description" content="Brian Van Stratum, postdoctoral researcher in bio-inspired and dynamic robot design and control: publications, projects, talks and awards.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <span><span class="brand__name">Brian Van Stratum</span><span class="brand__sub">Robotics · Dynamics · Control</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#talks">Talks &amp; awards</a></li>
+        <li><a class="nav-cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-head" id="top">
+    <div class="wrap profile">
+      <img src="assets/img/headshot.jpg" alt="Portrait of Brian Van Stratum" width="222" height="278">
+      <div>
+        <p class="eyebrow">Postdoctoral researcher <span class="todo">[lab, institution]</span></p>
+        <h1>Bio-inspired &amp; dynamic robot design and control</h1>
+        <p class="lede">Biology is a rich source of inspiration for engineering design. My research analyzes animal locomotion and uses the insights for mobile robot design and control.</p>
+        <p>I earned my Ph.D. at the FAMU-FSU College of Engineering as a Dean's Doctoral Fellow, working in the STRIDe and CTML labs at Florida State University. <span class="todo">[one sentence on current postdoc work]</span></p>
+        <p>Originally from Cumberland, Maryland, a mountain town in what I affectionately call "West Virginia Maryland," I now live in Oregon with my wife and three kids. We like to ride bikes, climb rocks and go camping.</p>
+        <div class="subnav">
+          <a href="#"><span class="todo">[Google Scholar]</span></a>
+          <a href="#"><span class="todo">[ORCID]</span></a>
+          <a href="#"><span class="todo">[CV (PDF)]</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="research">
+    <div class="wrap split">
+      <figure>
+        <video autoplay muted loop playsinline controls preload="metadata">
+          <source src="assets/video/optimized-swimmer.mp4" type="video/mp4">
+        </video>
+        <figcaption>An optimized two-chamber swimmer with a passive tail.</figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow">Research</p>
+        <h2>Overview</h2>
+        <p>Elongated swimmers and climbers such as lampreys get remarkable performance from simple bodies by exploiting flexibility, damping and interaction with their environment. My work models these effects, then tests them on physical robots, using optimization with the robot in the loop.</p>
+        <p>The common thread is dynamics: understanding how forces, friction and body mechanics combine to produce motion.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="publications">
+    <div class="wrap">
+      <div class="section__head"><p class="eyebrow">Peer reviewed</p><h2>Publications</h2></div>
+      <ul class="pubs">
+        <li>
+          <h3>Pacific lamprey inspired climbing</h3>
+          <p class="venue">Van Stratum, B., Shoele, K., &amp; Clark, J. E. <em>Bioinspiration &amp; Biomimetics</em> 18(4), 046013 (2023).</p>
+          <p class="links"><a href="https://doi.org/10.1088/1748-3190/acd671">DOI: 10.1088/1748-3190/acd671</a></p>
+        </li>
+        <li>
+          <h3>Effect of internal damping on locomotion in frictional environments</h3>
+          <p class="venue"><em>Physical Review E</em> 107, 054406 (2023).</p>
+          <p class="links"><a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.107.054406">Physical Review E</a></p>
+        </li>
+        <li>
+          <h3>Comparative model evaluation with a symmetric three-link swimming robot</h3>
+          <p class="venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em></p>
+          <p>Computational and experimental work using Nelder–Mead optimization to tune robot control with the robot in the loop.</p>
+          <p class="links"><a href="https://ieeexplore.ieee.org/abstract/document/9981131">IEEE Xplore</a></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="projects">
+    <div class="wrap">
+      <div style="max-width:680px">
+        <p class="eyebrow">Projects</p>
+        <h2>NASA BIG Idea Challenge: lunar quadruped</h2>
+        <p>In summer 2022, NASA funded the STRIDe lab to design a quadruped robot for exploring the lunar surface. My team designed the foot. Nice work, Carlos, Cameron and Jake!</p>
+        <p class="links">
+          <a href="https://eng.famu.fsu.edu/news/engineering-students-design-four-legged-lunar-robot-nasas-big-idea-challenge">FAMU-FSU Engineering press release</a><br>
+          <a href="https://bigidea.nianet.org/past-competition-themes/2022-forum-results/">NASA BIG Idea 2022 results and winning posters</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="controls">
+    <div class="wrap">
+      <div class="section__head"><p class="eyebrow">Controls</p><h2>Controls projects</h2></div>
+
+      <h3>Optimal control: trajectory optimization of a continuum robot arm</h3>
+      <p>A piecewise-constant-curvature continuum arm, first without control or damping, then following an optimized trajectory.</p>
+      <div class="compare">
+        <figure>
+          <video muted loop playsinline controls preload="metadata">
+            <source src="assets/video/continuum-arm-uncontrolled.mp4" type="video/mp4">
+          </video>
+          <figcaption>No control, no damping.</figcaption>
+        </figure>
+        <figure>
+          <video autoplay muted loop playsinline controls preload="metadata">
+            <source src="assets/video/continuum-arm-optimized.mp4" type="video/mp4">
+          </video>
+          <figcaption>Executing an optimized trajectory.</figcaption>
+        </figure>
+      </div>
+      <p style="margin-top:12px"><a href="assets/docs/continuum-arm-trajectory-optimization.pdf">Final report (PDF)</a></p>
+
+      <h3 style="margin-top:48px">Modern linear control: balancing a ball with a robot arm</h3>
+      <div class="split">
+        <figure>
+          <video muted loop playsinline controls preload="metadata">
+            <source src="assets/video/ball-balancing-arm.mp4" type="video/mp4">
+          </video>
+          <figcaption>A controlled robot arm balancing a ball and bringing it down.</figcaption>
+        </figure>
+        <div>
+          <p>A state-space controller keeps a ball balanced while the arm moves it through a descent. The full report derives the equations of motion.</p>
+          <p style="color:var(--ink-3)">Soltanov, Van Stratum &amp; Vickers</p>
+          <p><a href="assets/docs/ball-balancing-robot-arm.pdf">Full report with equations of motion (PDF)</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="talks">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Conference talks</p>
+        <h2>Talks</h2>
+        <ul class="simple-list">
+          <li><span class="yr">2023</span><span>APS: Using morphological intelligence in robotic designs of elongated swimmers</span></li>
+          <li><span class="yr">2022</span><span>APS: Experimental and theoretical study of the roles of body flexibility in undulatory bio-inspired swimmers</span></li>
+          <li><span class="yr">2021</span><span>APS: Optimization of a soft robot swimmer using Lighthill's large-amplitude elongated-body theory</span></li>
+        </ul>
+      </div>
+      <div id="awards">
+        <p class="eyebrow">Recognition</p>
+        <h2>Awards</h2>
+        <ul class="simple-list">
+          <li><span class="yr">2022</span><span>Winner, Best Presentation, ME Graduate Student Poster Competition</span></li>
+          <li><span class="yr">2019</span><span><a href="https://eng.famu.fsu.edu/news/2019-deans-doctoral-fellows">FAMU-FSU Dean's Doctoral Fellow</a>, 2019–2023</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap" style="max-width:720px;margin-left:auto;margin-right:auto">
+      <p class="eyebrow">Contact</p>
+      <h2>Get in touch</h2>
+      <p>I'm always happy to talk about locomotion, robot design and control, or potential collaborations. Email: <span class="todo">[university email]</span></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="yr">2026</span> Brian Van Stratum</p>
+    <ul>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
